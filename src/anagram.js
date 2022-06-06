@@ -21,7 +21,4 @@ function anagram(str1, str2) {
   return true;
 }
 
-document.getElementById("app").innerHTML = anagram(
-  "texttwisttime",
-  "timetwisttext"
-);
+console.log(anagram("texttwisttime", "timetwisttext"));
