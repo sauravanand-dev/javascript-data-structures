@@ -9,7 +9,7 @@ function avgPair(arr, num) {
     if (num === avg) {
       return true;
     }
-    if (num > avg) {
+    if (num < avg) {
       end--;
     } else {
       start++;
@@ -17,7 +17,7 @@ function avgPair(arr, num) {
   }
   return false;
 }
-//avgPair([1,3,3,5,6,7,10,12,19],8)
-//avgPair([1,2,3],2.5)
+//console.log(avgPair([1, 3, 3, 5, 6, 7, 10, 12, 19], 8));
+console.log(avgPair([1, 2, 3], 2.5));
 //avgPair([1,2,6],2.5)
-console.log(avgPair([-1, 0, 3, 4, 5, 6], 4.1));
+//console.log(avgPair([-1, 0, 3, 4, 5, 6], 4.1));
